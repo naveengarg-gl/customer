@@ -1,7 +1,5 @@
 package com.training.ms.customer.model;
 
-import javax.persistence.Id;
-
 public class Cart {
 	
 	int cartId;

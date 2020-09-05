@@ -32,7 +32,7 @@ public class CustomerController {
 	Cart getCustomerDetails(@PathVariable Long customerId)
 	{
 		Cart cart =  customerProxy.getCartDetail(customerId);
-		//logger.info("Customer Service Port="+Integer.parseInt(environment.getProperty("local.server.port")));
+		logger.info("Customer Service Port="+Integer.parseInt(environment.getProperty("local.server.port")));
 		return cart;
 	}
 	
